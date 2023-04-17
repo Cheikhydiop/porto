@@ -1,0 +1,207 @@
+    
+*{
+    font-size:15px;
+     font-family:titillium;
+}
+body{
+    margin:opx;
+   
+}
+nav>a{
+    display: block;
+    text-decoration: none;
+    margin: 1px;
+    width:400px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+    
+nav{
+    display: flex;
+    background: url('porte.jpg');
+}
+
+#bo{
+    height: 40px;
+    width: 30Px;
+   
+    background-color: grey;
+    display: block;
+    margin-top: -46px;
+   
+}
+nav>a:hover{
+    background-color: rgba(255,255,255,0.3);
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.space{
+    margin-left:20px
+}
+.lat{
+    margin-left:50px;
+}
+.nom{
+        font-size:2em;
+        color: blue;
+}
+
+input{
+    display:block;
+    width: 120px;
+    outline:none;
+    margin: auto;  
+}
+  
+.item{
+    border-radius:50px;
+    background-color:;
+    width: 60px;
+    height: 40px;
+}
+
+@keyframes back{
+    0%{
+        background-size:100% auto;
+    }
+    50%{
+        background-size:120% auto;
+    }
+
+    100%{
+        background-size:100% auto;
+    }
+}
+
+.c{
+    margin:0px 0px 0px 0px 1000px;
+    text-decoration:none;
+    background-color:yellow;
+    font-size:15px;
+    border-radius: 25px;;
+
+}
+#cont{
+    display: flex;
+    justify-content: right;
+
+}
+.item{
+  
+    width: 100px;
+    height: 40px;
+}
+.item:nth-child(1){
+    animation-name: diop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diop{
+  0%{transform: scale(0);}
+  50%{transform: scale(1);}
+  100%{transform: scale(0);}
+
+}
+ 
+
+#box{
+    display: none;
+}
+
+
+input{
+    display:inline;
+    width: 120px;
+    outline:none;
+    margin: auto;
+    box-sizing:border-box;
+    padding: 10px;            
+}
+input[type="submit"]{
+    cursor:pointer;
+    background-color:yellow;
+    margin: 2px;
+    padding: 10px;
+    width: 54px;
+}
+input[type="text"]{
+                
+     width:150px;
+} 
+
+#cont{
+    display: flex;
+    justify-content: right;
+}
+.item{
+    border-radius:50px;
+    background-color:;
+    width: 60px;
+    height: 40px;
+}
+
+ @media screen and (max-width:600px) {
+    nav{
+            display: block;
+            position: absolute;
+            
+            transform: translate(-1000px,0px);
+            transition: all 0.5s ease;
+        }
+    nav>a{
+            width: auto;
+        }
+     #box:checked+nav{
+            transform: translate(0px,0px);
+            transition: all 0.5s ease;
+    
+        }
+}
+#footer{
+    font-weight: bold;
+    text-align: center;
+    background-color:rgba(0,0,0,0.4);
+    box-sizing:border-box;    
+}
+
+.ri{
+    margin-right: 1200px;
+}
+      
+footer{
+    background:url('porte.jpg');
+    margin-left: -39px;       
+}
+
+.contac{
+    text-align:center;
+    color: #fff;
+}
+   
+.icone{
+    text-align: center;
+    background-color: none;
+    display: flex;
+    margin-left: 450px;
+  
+}
+#mor{
+    color:blue;    
+}
+.img-fluid{
+    max-width: 1.5%;
+    height: auto;
+    background-color: black;
+    margin:2px;
+    margin-right: 40px;
+}
+a :hover{
+    max-width: 2%;  
+}
